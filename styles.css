@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-color: #4D869C;
+}
+/* heading */
+h1{
+    font-size: 5rem;
+    color: #CDE8E5;
+    text-align: center;
+    background-color: #7AB2B2;
+    font-weight: 400;
+    height: 8rem;
+    line-height: 8rem;
+}
+/* Chooices container */
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 70%;
+    box-shadow: 0px 0px 10px black;
+}
+img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Score-board */
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+    color: #FFCAD4;
+}
+.user, .comp{
+    text-align: center;
+}
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+
+/* MSG */
+.msg-container{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #EEF7FF;
+    margin-top: 2rem;
+}
+#msg{
+    background-color: #333A73;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 20px;
+    line-height: 3rem;
+}
