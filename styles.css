@@ -72,6 +72,61 @@ img{
     background-color: #333A73;
     display: inline-block;
     border-radius: 15px;
-    padding: 10px 20px;
-    line-height: 3rem;
+    padding: 0px 20px;
+}
+
+@media(min-width: 390px) and (max-width: 449px){
+    h1{
+        font-size: 3rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .choices{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .choice{
+        height: 120px;
+        width: 120px;
+        margin: 10px;
+    }
+    img{
+        height: 120px;
+        width: 120px;
+    }
+    .msg-container{
+        font-size: 1.5rem;
+        margin: 2rem 1rem 0rem 1rem;
+    }
+    #msg{
+        padding: 0px 10px;
+    }
+}
+@media(min-width: 300px) and (max-width: 389px){
+    h1{
+        font-size: 2.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .choices{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .choice{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    img{
+        height: 95px;
+        width: 95px;
+    }
+    .msg-container{
+        font-size: 1.5rem;
+        margin: 2rem 1rem 0rem 1rem;
+    }
+    #msg{
+        padding: 0px 10px;
+    }
 }
