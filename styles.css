@@ -35,7 +35,7 @@ h1{
 }
 .choice:hover{
     opacity: 70%;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 img{
     height: 200px;
